@@ -16,7 +16,8 @@ def submit_user_info():
 
 
     # a submission message rendered after form submition 
-    submission_message = f"Thank you, {name}! Your information has been submitted."
+    submission_message = f"Thank you, ! Your information has been submitted.  {name}  {email} {age} {gender}"
+    
 
     return render_template('index.html', submission_message=submission_message)
 
